@@ -16,7 +16,7 @@ Construa um programa que mostre uma imagem JPEG (arquivo com extensão <code>.jp
 (function(){
   var initial = "from jes4py import *\n" +
     "nomeArquivoImagem = pickAFile()\n" +
-    "print(‘Olá! Você escolheu um arquivo’, nomeArquivoImagem)\n" +
+    "print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoImagem)\n" +
     "imagem = makePicture(nomeArquivoImagem)\n" +
     "show(imagem)";
   var parsonsPuzzle = new ParsonsWidget({

@@ -18,7 +18,7 @@ Construa um programa que toque uma música MPEG-1 Layer 3 (vulgo MP3, arquivo co
   var initial = "from jes4py import *\n" +
     "from pydub import AudioSegment\n" +
     "nomeArquivoMp3 = pickAFile()\n" +
-    "print(‘Olá! Você escolheu um arquivo’, nomeArquivoMp3)\n" +
+    "print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoMp3)\n" +
     "nomeArquivoWav = nomeArquivoMp3 + &quot;.wav&quot;\n" +
     "somMp3 = AudioSegment.from_mp3(nomeArquivoMp3)\n" +
     "somMp3.export(nomeArquivoWav, format=&quot;wav&quot;)\n" +
