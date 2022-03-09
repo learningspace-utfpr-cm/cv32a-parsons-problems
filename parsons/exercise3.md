@@ -18,9 +18,9 @@ em uma função.
 (function(){
   var initial = "from jes4py import *\n" +
     "def mostrarImagem(nomeArquivoImagem):\n" +
-    "        print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoImagem)\n" +
-    "        imagem = makePicture(nomeArquivoImagem)\n" +
-    "        show(imagem)\n" +
+    "  print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoImagem)\n" +
+    "  imagem = makePicture(nomeArquivoImagem)\n" +
+    "  show(imagem)\n" +
     "\n" +
     "mostrarImagem(&#039;/home/...&#039;)\n" +
     "mostrarImagem(&#039;/home/...&#039;)";

@@ -18,12 +18,12 @@ Construa um programa que toque duas músicas MPEG-1 Layer 3 (vulgo MP3, arquivo 
   var initial = "from jes4py import *\n" +
     "from pydub import AudioSegment\n" +
     "def tocarMusica(nomeArquivoMp3):\n" +
-    "print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoMp3)\n" +
-    "nomeArquivoWav = nomeArquivoMp3 + &quot;.wav&quot;\n" +
-    "somMp3 = AudioSegment.from_mp3(nomeArquivoMp3)\n" +
-    "somMp3.export(nomeArquivoWav, format=&quot;wav&quot;)\n" +
-    "som = makeSound(nomeArquivoWav)\n" +
-    "play(som)\n" +
+    "  print(&#039;Olá! Você escolheu um arquivo&#039;, nomeArquivoMp3)\n" +
+    "  nomeArquivoWav = nomeArquivoMp3 + &quot;.wav&quot;\n" +
+    "  somMp3 = AudioSegment.from_mp3(nomeArquivoMp3)\n" +
+    "  somMp3.export(nomeArquivoWav, format=&quot;wav&quot;)\n" +
+    "  som = makeSound(nomeArquivoWav)\n" +
+    "  play(som)\n" +
     "\n" + 
     "tocarMusica(&#039;/home/...&#039;)\n" +
     "tocarMusica(&#039;/home/...&#039;)";
