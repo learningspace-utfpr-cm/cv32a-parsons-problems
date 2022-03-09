@@ -9,8 +9,8 @@ Construa um programa que mostre uma imagem JPEG (arquivo com extensão <code>.jp
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="feedbackLink" value="Obter comentário" type="button" /> 
+    <input id="newInstanceLink" value="Reiniciar problema" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -43,4 +43,4 @@ Construa um programa que mostre uma imagem JPEG (arquivo com extensão <code>.jp
 </script>
 
 
-[Next](./exercicio2.html)
+[Próximo exercício](./exercise2.html)
